@@ -13,4 +13,9 @@ public enum TypeVegetables {
     public String getTypeVegetables() {
         return typeVegetables;
     }
+
+    @Override
+    public String toString() {
+        return typeVegetables;
+    }
 }
